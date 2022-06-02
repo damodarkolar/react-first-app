@@ -3,21 +3,21 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{width:"500px", alignItems:"center",paddingLeft:"500px"}}>
+      <h1 style={{color:"blue"}}>Mobile Operating system</h1>
+      <ul style={{color:"red"}}>
+        <li>Android</li>
+        <li>Blackberry</li>
+        <li>iPhone</li>
+        <li>Windows Pone</li>
+        </ul>
+        <h1 style={{color:"blue"}}>Mobile Manufactures</h1>
+      <ul style={{color:"red"}}>
+        <li>Samsung</li>
+        <li>HTC</li>
+        <li>Micromax</li>
+        <li>Apple</li>
+      </ul>
     </div>
   );
 }
